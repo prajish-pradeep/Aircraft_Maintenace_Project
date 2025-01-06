@@ -1,0 +1,29 @@
+[2025-01-06T13:20:02.216+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-06T13:20:02.351+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_quality_checks_dag.check_duplicates_maintenance_actions scheduled__2025-01-06T00:00:00+00:00 [queued]>
+[2025-01-06T13:20:02.363+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_quality_checks_dag.check_duplicates_maintenance_actions scheduled__2025-01-06T00:00:00+00:00 [queued]>
+[2025-01-06T13:20:02.364+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-06T13:20:03.078+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): check_duplicates_maintenance_actions> on 2025-01-06 00:00:00+00:00
+[2025-01-06T13:20:03.106+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=121) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-06T13:20:03.121+0000] {standard_task_runner.py:72} INFO - Started process 154 to run task
+[2025-01-06T13:20:03.128+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'data_quality_checks_dag', 'check_duplicates_maintenance_actions', 'scheduled__2025-01-06T00:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/Data Quality Checks with Logging.py', '--cfg-path', '/tmp/tmpj0fkvm3s']
+[2025-01-06T13:20:03.137+0000] {standard_task_runner.py:105} INFO - Job 40: Subtask check_duplicates_maintenance_actions
+[2025-01-06T13:20:03.642+0000] {task_command.py:467} INFO - Running <TaskInstance: data_quality_checks_dag.check_duplicates_maintenance_actions scheduled__2025-01-06T00:00:00+00:00 [running]> on host ff2cd35e75e1
+[2025-01-06T13:20:04.169+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='data_quality_checks_dag' AIRFLOW_CTX_TASK_ID='check_duplicates_maintenance_actions' AIRFLOW_CTX_EXECUTION_DATE='2025-01-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-06T00:00:00+00:00'
+[2025-01-06T13:20:04.190+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-06T13:20:04.193+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-06T13:20:04.195+0000] {logging_mixin.py:190} INFO - Current task name:check_duplicates_maintenance_actions state:running start_date:2025-01-06 13:20:02.352138+00:00
+[2025-01-06T13:20:04.196+0000] {logging_mixin.py:190} INFO - Dag name:data_quality_checks_dag and current dag run status:running
+[2025-01-06T13:20:04.197+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-06T13:20:07.010+0000] {logging_mixin.py:190} INFO - No duplicate rows found in table Maintenance_Actions.
+[2025-01-06T13:20:07.037+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-06T13:20:07.614+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-06T13:20:07.644+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=data_quality_checks_dag, task_id=check_duplicates_maintenance_actions, run_id=scheduled__2025-01-06T00:00:00+00:00, execution_date=20250106T000000, start_date=20250106T132002, end_date=20250106T132007
+[2025-01-06T13:20:08.281+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-06T13:20:08.320+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-06T13:20:08.326+0000] {logging_mixin.py:190} INFO - Dag name:data_quality_checks_dag queued_at:2025-01-06 13:19:48.085092+00:00
+[2025-01-06T13:20:08.330+0000] {logging_mixin.py:190} INFO - Task hostname:ff2cd35e75e1 operator:PythonOperator
+[2025-01-06T13:20:09.057+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-06T13:20:09.258+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-06T13:20:09.269+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

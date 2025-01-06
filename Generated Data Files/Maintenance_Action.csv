@@ -1,0 +1,301 @@
+maintenance_id,engine_id,technician_id,action_taken,date
+1,40,26,Hydraulic system fluid replacement,2024-02-24
+2,33,137,Routine avionics system diagnostics,2024-07-15
+3,14,66,Corrosion inspection and mitigation,2024-04-19
+4,92,134,Aerodynamic performance assessment,2024-05-19
+5,26,34,Environmental control system maintenance,2024-09-03
+6,65,32,Environmental control system maintenance,2024-10-07
+7,87,73,Aerodynamic performance assessment,2024-10-18
+8,76,168,Corrosion inspection and mitigation,2024-05-21
+9,61,19,Aerodynamic performance assessment,2024-05-14
+10,82,184,Powerplant module replacement,2024-07-08
+11,99,92,Fire suppression system functional test,2024-04-21
+12,66,43,Flight control system recalibration,2024-03-14
+13,7,123,Turbine blade stress testing,2024-04-03
+14,51,83,Flight control system recalibration,2024-05-13
+15,42,85,Powerplant module replacement,2024-09-25
+16,39,2,Fire suppression system functional test,2024-11-24
+17,30,141,Powerplant module replacement,2024-09-18
+18,74,40,Corrosion inspection and mitigation,2024-05-07
+19,72,133,Cooling system pressure test,2024-12-29
+20,37,27,Instrumentation and inspection systems check,2024-04-27
+21,94,141,Turbine blade stress testing,2024-11-29
+22,39,58,Fire suppression system functional test,2024-10-03
+23,25,19,Corrosion inspection and mitigation,2024-09-05
+24,86,3,Fuel pump inspection and calibration,2024-05-31
+25,64,188,Lubrication system flush and refill,2024-03-24
+26,52,90,Turbine blade stress testing,2024-07-13
+27,39,133,Fuel pump inspection and calibration,2024-10-14
+28,46,77,Corrosion inspection and mitigation,2024-04-14
+29,55,27,Complete engine overhaul,2024-05-25
+30,80,173,Navigation software update,2024-11-01
+31,88,36,Instrumentation and inspection systems check,2024-01-31
+32,36,143,Fuel pump inspection and calibration,2024-07-23
+33,40,156,Cooling system pressure test,2024-04-28
+34,34,3,Powerplant module replacement,2024-10-30
+35,97,12,Lubrication system flush and refill,2024-06-07
+36,27,51,Navigation software update,2024-05-16
+37,26,143,Fuel pump inspection and calibration,2024-05-10
+38,11,109,Structural integrity review for fuselage,2024-05-07
+39,84,42,Aerodynamic performance assessment,2024-01-10
+40,54,176,Cooling system pressure test,2024-10-16
+41,80,77,Complete engine overhaul,2024-06-26
+42,65,196,Lubrication system flush and refill,2024-02-01
+43,69,93,Corrosion inspection and mitigation,2024-03-04
+44,22,125,Electrical systems integrity check,2024-05-21
+45,92,18,Environmental control system maintenance,2024-04-01
+46,72,118,Aerodynamic performance assessment,2024-05-22
+47,16,63,Corrosion inspection and mitigation,2024-09-07
+48,76,46,Environmental control system maintenance,2024-11-23
+49,96,16,Lubrication system flush and refill,2024-06-01
+50,92,181,Propulsion system efficiency analysis,2024-01-31
+51,48,98,Fuel pump inspection and calibration,2024-12-24
+52,19,164,Lubrication system flush and refill,2024-06-25
+53,34,54,Cooling system pressure test,2024-08-12
+54,24,166,Flight control system recalibration,2024-03-31
+55,90,34,Exhaust nozzle cleaning,2024-11-18
+56,42,61,Flight control system recalibration,2024-02-07
+57,26,119,Turbine blade stress testing,2024-07-02
+58,13,36,Corrosion inspection and mitigation,2024-09-02
+59,70,132,Environmental control system maintenance,2024-01-20
+60,48,97,Exhaust nozzle cleaning,2024-02-25
+61,92,2,Flight control system recalibration,2024-01-24
+62,31,193,Fuel pump inspection and calibration,2024-08-22
+63,9,94,Cooling system pressure test,2024-12-06
+64,93,35,Routine avionics system diagnostics,2024-12-22
+65,88,151,Electrical systems integrity check,2024-08-02
+66,30,153,Powerplant module replacement,2024-12-13
+67,61,3,Aerodynamic performance assessment,2024-09-29
+68,91,8,Structural integrity review for fuselage,2024-08-30
+69,66,15,Turbine blade stress testing,2024-08-08
+70,58,176,Powerplant module replacement,2024-06-10
+71,66,118,Environmental control system maintenance,2024-10-31
+72,56,83,Navigation software update,2024-04-16
+73,89,67,Navigation software update,2024-12-28
+74,73,180,Exhaust nozzle cleaning,2024-03-18
+75,92,62,Exhaust nozzle cleaning,2024-03-13
+76,46,71,Fuel pump inspection and calibration,2024-05-23
+77,10,76,Instrumentation and inspection systems check,2024-03-27
+78,45,160,Corrosion inspection and mitigation,2024-03-15
+79,60,150,Hydraulic system fluid replacement,2024-11-17
+80,75,128,Cooling system pressure test,2024-05-30
+81,81,88,Exhaust nozzle cleaning,2024-10-30
+82,4,175,Navigation software update,2024-12-25
+83,51,6,Navigation software update,2024-01-30
+84,6,70,Lubrication system flush and refill,2024-01-20
+85,40,2,Navigation software update,2024-01-20
+86,34,160,Fuel pump inspection and calibration,2024-09-03
+87,20,74,Exhaust nozzle cleaning,2024-10-04
+88,96,83,Powerplant module replacement,2024-02-01
+89,47,174,Structural integrity review for fuselage,2024-09-04
+90,30,115,Cooling system pressure test,2024-03-03
+91,45,177,Fuel pump inspection and calibration,2024-10-31
+92,71,26,Electrical systems integrity check,2024-04-19
+93,90,75,Cooling system pressure test,2024-10-10
+94,6,46,Turbine blade stress testing,2024-04-18
+95,44,91,Environmental control system maintenance,2024-05-17
+96,76,27,Routine avionics system diagnostics,2024-08-15
+97,28,12,Powerplant module replacement,2024-04-16
+98,75,168,Fire suppression system functional test,2024-05-02
+99,76,89,Exhaust nozzle cleaning,2024-08-05
+100,28,42,Instrumentation and inspection systems check,2024-06-15
+101,57,19,Complete engine overhaul,2024-10-03
+102,74,96,Cooling system pressure test,2024-01-08
+103,78,89,Ignition system troubleshooting,2024-10-12
+104,3,146,Electrical systems integrity check,2024-05-10
+105,89,121,Turbine blade stress testing,2024-07-31
+106,83,51,Propulsion system efficiency analysis,2024-02-16
+107,7,61,Cooling system pressure test,2024-05-18
+108,12,139,Electrical systems integrity check,2024-07-15
+109,18,20,Lubrication system flush and refill,2024-10-04
+110,72,107,Environmental control system maintenance,2024-01-18
+111,67,131,Flight control system recalibration,2024-08-20
+112,77,60,Exhaust nozzle cleaning,2024-05-18
+113,14,61,Turbine blade stress testing,2024-08-09
+114,93,51,Routine avionics system diagnostics,2024-08-19
+115,13,186,Complete engine overhaul,2024-05-19
+116,22,167,Aerodynamic performance assessment,2024-03-16
+117,49,59,Navigation software update,2024-06-19
+118,23,150,Structural integrity review for fuselage,2024-11-18
+119,32,3,Fuel pump inspection and calibration,2024-05-09
+120,27,145,Navigation software update,2024-12-04
+121,69,104,Aerodynamic performance assessment,2024-09-23
+122,53,1,Navigation software update,2024-01-23
+123,25,39,Fire suppression system functional test,2024-03-07
+124,35,25,Electrical systems integrity check,2024-07-05
+125,92,188,Ignition system troubleshooting,2024-03-08
+126,68,69,Routine avionics system diagnostics,2024-01-13
+127,63,18,Propulsion system efficiency analysis,2024-08-15
+128,77,125,Navigation software update,2024-09-17
+129,53,68,Complete engine overhaul,2024-11-18
+130,94,26,Ignition system troubleshooting,2024-03-07
+131,96,52,Propulsion system efficiency analysis,2024-03-25
+132,91,153,Flight control system recalibration,2024-09-08
+133,33,9,Powerplant module replacement,2024-08-05
+134,48,106,Fire suppression system functional test,2024-07-10
+135,17,169,Structural integrity review for fuselage,2024-08-21
+136,4,58,Fuel pump inspection and calibration,2024-02-18
+137,31,74,Ignition system troubleshooting,2024-01-24
+138,49,83,Routine avionics system diagnostics,2024-09-06
+139,88,82,Corrosion inspection and mitigation,2024-04-11
+140,61,93,Environmental control system maintenance,2024-11-18
+141,52,104,Hydraulic system fluid replacement,2024-06-21
+142,54,52,Hydraulic system fluid replacement,2024-05-25
+143,97,43,Turbine blade stress testing,2024-03-29
+144,90,39,Environmental control system maintenance,2024-01-09
+145,89,182,Electrical systems integrity check,2024-03-07
+146,28,4,Turbine blade stress testing,2024-07-23
+147,31,76,Flight control system recalibration,2024-09-24
+148,93,58,Propulsion system efficiency analysis,2024-09-10
+149,81,133,Structural integrity review for fuselage,2024-10-22
+150,91,192,Corrosion inspection and mitigation,2024-09-21
+151,58,68,Complete engine overhaul,2024-12-25
+152,80,187,Electrical systems integrity check,2024-06-06
+153,9,116,Exhaust nozzle cleaning,2024-08-18
+154,79,85,Lubrication system flush and refill,2024-02-19
+155,100,33,Ignition system troubleshooting,2024-09-21
+156,37,97,Electrical systems integrity check,2024-11-29
+157,9,43,Instrumentation and inspection systems check,2024-05-05
+158,66,92,Fuel pump inspection and calibration,2024-02-25
+159,76,62,Exhaust nozzle cleaning,2024-12-15
+160,80,41,Fuel pump inspection and calibration,2024-05-11
+161,28,102,Fuel pump inspection and calibration,2024-10-20
+162,50,195,Complete engine overhaul,2024-07-07
+163,62,169,Hydraulic system fluid replacement,2024-07-23
+164,16,58,Navigation software update,2024-03-10
+165,15,199,Turbine blade stress testing,2024-09-15
+166,4,75,Instrumentation and inspection systems check,2024-03-20
+167,13,68,Fuel pump inspection and calibration,2024-01-08
+168,60,31,Corrosion inspection and mitigation,2024-05-07
+169,48,9,Powerplant module replacement,2024-02-27
+170,45,75,Fire suppression system functional test,2024-03-29
+171,11,79,Environmental control system maintenance,2024-01-13
+172,22,57,Fuel pump inspection and calibration,2024-04-30
+173,11,113,Hydraulic system fluid replacement,2024-06-10
+174,8,115,Powerplant module replacement,2024-08-27
+175,74,12,Instrumentation and inspection systems check,2024-12-07
+176,9,28,Electrical systems integrity check,2024-03-19
+177,98,72,Lubrication system flush and refill,2024-06-07
+178,94,89,Navigation software update,2024-05-27
+179,6,151,Environmental control system maintenance,2024-12-08
+180,29,9,Fuel pump inspection and calibration,2024-03-13
+181,21,71,Hydraulic system fluid replacement,2024-10-20
+182,28,115,Aerodynamic performance assessment,2024-03-02
+183,74,127,Ignition system troubleshooting,2024-08-10
+184,36,66,Hydraulic system fluid replacement,2025-01-01
+185,62,7,Fire suppression system functional test,2024-02-02
+186,95,53,Fire suppression system functional test,2025-01-01
+187,20,28,Hydraulic system fluid replacement,2024-02-13
+188,92,121,Electrical systems integrity check,2024-11-28
+189,56,103,Instrumentation and inspection systems check,2024-09-09
+190,81,176,Fuel pump inspection and calibration,2024-05-19
+191,86,62,Corrosion inspection and mitigation,2024-06-07
+192,53,79,Navigation software update,2024-03-14
+193,77,163,Ignition system troubleshooting,2024-03-07
+194,20,28,Routine avionics system diagnostics,2025-01-06
+195,39,4,Lubrication system flush and refill,2024-06-12
+196,97,97,Corrosion inspection and mitigation,2024-07-28
+197,55,153,Complete engine overhaul,2024-05-03
+198,4,81,Lubrication system flush and refill,2024-07-17
+199,80,9,Complete engine overhaul,2024-05-27
+200,8,154,Aerodynamic performance assessment,2024-12-11
+201,97,200,Complete engine overhaul,2024-12-31
+202,54,112,Complete engine overhaul,2024-04-21
+203,1,22,Aerodynamic performance assessment,2024-11-29
+204,55,128,Flight control system recalibration,2024-09-13
+205,55,81,Instrumentation and inspection systems check,2024-10-22
+206,72,140,Turbine blade stress testing,2024-03-12
+207,93,24,Fuel pump inspection and calibration,2024-02-11
+208,17,186,Cooling system pressure test,2025-01-01
+209,92,97,Exhaust nozzle cleaning,2024-07-03
+210,13,200,Lubrication system flush and refill,2024-07-24
+211,35,152,Navigation software update,2024-02-28
+212,19,59,Powerplant module replacement,2024-12-27
+213,9,180,Instrumentation and inspection systems check,2024-07-08
+214,52,196,Environmental control system maintenance,2024-03-07
+215,34,166,Turbine blade stress testing,2024-12-15
+216,13,16,Fuel pump inspection and calibration,2024-03-08
+217,62,18,Navigation software update,2024-03-22
+218,91,7,Fuel pump inspection and calibration,2024-03-13
+219,60,10,Fuel pump inspection and calibration,2024-09-28
+220,30,99,Lubrication system flush and refill,2024-02-22
+221,16,27,Electrical systems integrity check,2024-02-17
+222,35,148,Routine avionics system diagnostics,2024-06-12
+223,100,96,Flight control system recalibration,2024-11-26
+224,64,19,Propulsion system efficiency analysis,2024-03-22
+225,73,146,Structural integrity review for fuselage,2024-05-02
+226,31,169,Exhaust nozzle cleaning,2024-03-02
+227,11,73,Routine avionics system diagnostics,2024-12-31
+228,34,159,Turbine blade stress testing,2024-09-19
+229,10,63,Instrumentation and inspection systems check,2024-12-29
+230,82,164,Flight control system recalibration,2024-06-03
+231,63,53,Electrical systems integrity check,2024-02-16
+232,92,148,Corrosion inspection and mitigation,2024-12-01
+233,29,83,Fire suppression system functional test,2024-02-13
+234,31,58,Navigation software update,2024-04-15
+235,83,29,Navigation software update,2024-08-03
+236,53,162,Routine avionics system diagnostics,2024-02-24
+237,11,169,Hydraulic system fluid replacement,2024-12-03
+238,5,138,Hydraulic system fluid replacement,2024-09-24
+239,59,30,Complete engine overhaul,2024-09-21
+240,61,167,Complete engine overhaul,2024-02-25
+241,97,114,Lubrication system flush and refill,2024-08-21
+242,23,35,Routine avionics system diagnostics,2024-12-05
+243,27,108,Electrical systems integrity check,2024-11-16
+244,23,116,Fuel pump inspection and calibration,2024-06-22
+245,78,13,Turbine blade stress testing,2024-07-19
+246,7,48,Ignition system troubleshooting,2024-11-16
+247,50,65,Powerplant module replacement,2024-10-26
+248,6,198,Cooling system pressure test,2024-03-24
+249,85,69,Routine avionics system diagnostics,2024-09-07
+250,99,124,Aerodynamic performance assessment,2024-11-24
+251,29,56,Corrosion inspection and mitigation,2024-07-13
+252,66,18,Powerplant module replacement,2024-08-13
+253,46,81,Structural integrity review for fuselage,2024-10-12
+254,81,50,Fire suppression system functional test,2024-11-07
+255,87,103,Aerodynamic performance assessment,2024-08-16
+256,98,114,Complete engine overhaul,2024-11-21
+257,43,146,Environmental control system maintenance,2024-12-24
+258,47,67,Navigation software update,2024-11-29
+259,65,172,Lubrication system flush and refill,2024-04-22
+260,5,38,Lubrication system flush and refill,2024-06-13
+261,97,199,Complete engine overhaul,2024-10-04
+262,41,86,Propulsion system efficiency analysis,2024-10-15
+263,54,172,Fuel pump inspection and calibration,2024-06-09
+264,83,133,Flight control system recalibration,2024-03-04
+265,8,20,Turbine blade stress testing,2024-07-30
+266,10,37,Fuel pump inspection and calibration,2024-10-04
+267,60,186,Exhaust nozzle cleaning,2024-06-08
+268,56,54,Electrical systems integrity check,2025-01-03
+269,51,148,Fuel pump inspection and calibration,2024-07-13
+270,87,193,Routine avionics system diagnostics,2024-03-29
+271,6,74,Fuel pump inspection and calibration,2024-08-14
+272,19,151,Ignition system troubleshooting,2024-09-02
+273,61,90,Routine avionics system diagnostics,2024-12-31
+274,28,68,Lubrication system flush and refill,2024-10-16
+275,22,51,Structural integrity review for fuselage,2024-10-29
+276,6,28,Environmental control system maintenance,2024-02-27
+277,24,77,Electrical systems integrity check,2024-08-04
+278,96,44,Environmental control system maintenance,2024-01-22
+279,65,115,Navigation software update,2024-05-19
+280,49,77,Cooling system pressure test,2024-05-06
+281,20,66,Environmental control system maintenance,2024-09-27
+282,62,38,Electrical systems integrity check,2024-05-20
+283,34,132,Cooling system pressure test,2024-06-21
+284,92,83,Fuel pump inspection and calibration,2024-07-10
+285,25,2,Fire suppression system functional test,2024-09-26
+286,3,159,Ignition system troubleshooting,2024-09-14
+287,46,67,Structural integrity review for fuselage,2024-09-01
+288,54,82,Fire suppression system functional test,2024-06-10
+289,26,164,Routine avionics system diagnostics,2024-03-16
+290,28,66,Fuel pump inspection and calibration,2024-12-14
+291,40,125,Turbine blade stress testing,2024-09-03
+292,7,123,Fuel pump inspection and calibration,2024-08-27
+293,92,152,Routine avionics system diagnostics,2024-12-14
+294,73,49,Environmental control system maintenance,2024-05-31
+295,17,30,Corrosion inspection and mitigation,2024-03-29
+296,88,27,Hydraulic system fluid replacement,2024-03-28
+297,99,49,Fire suppression system functional test,2024-07-11
+298,49,9,Structural integrity review for fuselage,2024-07-09
+299,92,68,Fire suppression system functional test,2024-12-31
+300,91,12,Hydraulic system fluid replacement,2024-05-07

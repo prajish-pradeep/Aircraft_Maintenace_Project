@@ -1,0 +1,29 @@
+[2025-01-06T14:20:36.831+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-06T14:20:36.838+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_backup_dag.backup_old_maintenance_actions manual__2025-01-06T14:20:35.029225+00:00 [queued]>
+[2025-01-06T14:20:36.843+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_backup_dag.backup_old_maintenance_actions manual__2025-01-06T14:20:35.029225+00:00 [queued]>
+[2025-01-06T14:20:36.843+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-06T14:20:36.942+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): backup_old_maintenance_actions> on 2025-01-06 14:20:35.029225+00:00
+[2025-01-06T14:20:36.946+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=106) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-06T14:20:36.947+0000] {standard_task_runner.py:72} INFO - Started process 107 to run task
+[2025-01-06T14:20:36.948+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'data_backup_dag', 'backup_old_maintenance_actions', 'manual__2025-01-06T14:20:35.029225+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/data_backup_dag.py', '--cfg-path', '/tmp/tmp0_utfosj']
+[2025-01-06T14:20:36.949+0000] {standard_task_runner.py:105} INFO - Job 72: Subtask backup_old_maintenance_actions
+[2025-01-06T14:20:36.969+0000] {task_command.py:467} INFO - Running <TaskInstance: data_backup_dag.backup_old_maintenance_actions manual__2025-01-06T14:20:35.029225+00:00 [running]> on host 63d17a247354
+[2025-01-06T14:20:37.003+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='data_backup_dag' AIRFLOW_CTX_TASK_ID='backup_old_maintenance_actions' AIRFLOW_CTX_EXECUTION_DATE='2025-01-06T14:20:35.029225+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-06T14:20:35.029225+00:00'
+[2025-01-06T14:20:37.004+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-06T14:20:37.004+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-06T14:20:37.004+0000] {logging_mixin.py:190} INFO - Current task name:backup_old_maintenance_actions state:running start_date:2025-01-06 14:20:36.838995+00:00
+[2025-01-06T14:20:37.004+0000] {logging_mixin.py:190} INFO - Dag name:data_backup_dag and current dag run status:running
+[2025-01-06T14:20:37.004+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-06T14:20:37.599+0000] {logging_mixin.py:190} INFO - Old maintenance actions backed up to /opt/***/backups/maintenance_actions_backup.csv.
+[2025-01-06T14:20:37.599+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-06T14:20:37.606+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-06T14:20:37.606+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=data_backup_dag, task_id=backup_old_maintenance_actions, run_id=manual__2025-01-06T14:20:35.029225+00:00, execution_date=20250106T142035, start_date=20250106T142036, end_date=20250106T142037
+[2025-01-06T14:20:37.611+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-06T14:20:37.611+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-06T14:20:37.611+0000] {logging_mixin.py:190} INFO - Dag name:data_backup_dag queued_at:2025-01-06 14:20:35.051755+00:00
+[2025-01-06T14:20:37.611+0000] {logging_mixin.py:190} INFO - Task hostname:63d17a247354 operator:PythonOperator
+[2025-01-06T14:20:37.631+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-06T14:20:37.640+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-06T14:20:37.641+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

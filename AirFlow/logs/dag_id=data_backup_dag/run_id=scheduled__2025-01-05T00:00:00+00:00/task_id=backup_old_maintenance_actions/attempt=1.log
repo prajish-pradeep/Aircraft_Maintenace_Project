@@ -1,0 +1,29 @@
+[2025-01-06T13:58:21.096+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-06T13:58:21.105+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_backup_dag.backup_old_maintenance_actions scheduled__2025-01-05T00:00:00+00:00 [queued]>
+[2025-01-06T13:58:21.109+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_backup_dag.backup_old_maintenance_actions scheduled__2025-01-05T00:00:00+00:00 [queued]>
+[2025-01-06T13:58:21.109+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-01-06T13:58:21.116+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): backup_old_maintenance_actions> on 2025-01-05 00:00:00+00:00
+[2025-01-06T13:58:21.121+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=88) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-01-06T13:58:21.122+0000] {standard_task_runner.py:72} INFO - Started process 89 to run task
+[2025-01-06T13:58:21.122+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'data_backup_dag', 'backup_old_maintenance_actions', 'scheduled__2025-01-05T00:00:00+00:00', '--job-id', '58', '--raw', '--subdir', 'DAGS_FOLDER/data_backup_dag.py', '--cfg-path', '/tmp/tmpd4s_zsct']
+[2025-01-06T13:58:21.123+0000] {standard_task_runner.py:105} INFO - Job 58: Subtask backup_old_maintenance_actions
+[2025-01-06T13:58:21.354+0000] {task_command.py:467} INFO - Running <TaskInstance: data_backup_dag.backup_old_maintenance_actions scheduled__2025-01-05T00:00:00+00:00 [running]> on host ff2cd35e75e1
+[2025-01-06T13:58:21.392+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='data_backup_dag' AIRFLOW_CTX_TASK_ID='backup_old_maintenance_actions' AIRFLOW_CTX_EXECUTION_DATE='2025-01-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-05T00:00:00+00:00'
+[2025-01-06T13:58:21.392+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-06T13:58:21.393+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-06T13:58:21.393+0000] {logging_mixin.py:190} INFO - Current task name:backup_old_maintenance_actions state:running start_date:2025-01-06 13:58:21.105402+00:00
+[2025-01-06T13:58:21.393+0000] {logging_mixin.py:190} INFO - Dag name:data_backup_dag and current dag run status:running
+[2025-01-06T13:58:21.393+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-06T13:58:22.030+0000] {logging_mixin.py:190} INFO - Old maintenance actions backed up to /opt/***/backups/maintenance_actions_backup.csv.
+[2025-01-06T13:58:22.030+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-01-06T13:58:22.036+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-06T13:58:22.036+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=data_backup_dag, task_id=backup_old_maintenance_actions, run_id=scheduled__2025-01-05T00:00:00+00:00, execution_date=20250105T000000, start_date=20250106T135821, end_date=20250106T135822
+[2025-01-06T13:58:22.043+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-06T13:58:22.044+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-06T13:58:22.044+0000] {logging_mixin.py:190} INFO - Dag name:data_backup_dag queued_at:2025-01-06 13:58:19.747259+00:00
+[2025-01-06T13:58:22.044+0000] {logging_mixin.py:190} INFO - Task hostname:ff2cd35e75e1 operator:PythonOperator
+[2025-01-06T13:58:22.074+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-06T13:58:22.185+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-01-06T13:58:22.186+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

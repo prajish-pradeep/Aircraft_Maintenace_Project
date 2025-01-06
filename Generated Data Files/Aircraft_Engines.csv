@@ -1,0 +1,101 @@
+engine_id,engine_model,engine_type,component_name,component_type,manufacture_date
+1,CFM56-5B,Turbofan,High Pressure Turbine,High Pressure Turbine System,2018-08-03
+2,Trent 700,Turbofan,Fan Blade,Fan Blade System,2018-06-18
+3,F110,Jet,Valve,Valve System,1991-03-29
+4,TPE331,Prop,Turbine Blade,Turbine Blade System,2000-11-24
+5,J85,Jet,Thrust Reverser,Thrust Reverser System,2005-06-13
+6,AE2100D2,Prop,Turbocharger,Turbocharger System,2016-10-18
+7,PT6A-68,Prop,Fuel Controller,Fuel Controller System,2010-04-06
+8,Pratt & Whitney F135,Jet,Fan Blade,Fan Blade System,2015-05-29
+9,General Electric J85,Jet,Starter,Starter System,2003-05-20
+10,Trent 700,Turbofan,Combustion Chamber,Combustion Chamber System,1995-08-18
+11,General Electric F110,Jet,Starter,Starter System,2011-06-12
+12,GE90-115B,Turbofan,Exhaust Case,Exhaust Case System,1992-08-14
+13,V2500,Turbofan,Fan Blade,Fan Blade System,1994-08-20
+14,V2500,Turbofan,Gearbox,Gearbox System,1997-01-18
+15,Pratt & Whitney F135,Jet,Valve,Valve System,1996-10-04
+16,PT6A-67R,Prop,Propeller Blade,Propeller Blade System,1994-11-11
+17,General Electric F110,Jet,Sensor,Sensor System,2016-04-17
+18,CFM56-5B,Turbofan,Gearbox,Gearbox System,2006-05-31
+19,J85,Jet,Fan Blade,Fan Blade System,2002-07-08
+20,PT6A-21,Prop,Turbocharger,Turbocharger System,2009-05-03
+21,PT6A-21,Prop,Turbocharger,Turbocharger System,2005-05-01
+22,TPE331-10,Prop,Compressor Blade,Compressor Blade System,2005-03-13
+23,PT6A-21,Prop,Turbocharger,Turbocharger System,2016-06-08
+24,AE2100D2,Prop,Fuel Nozzle,Fuel Nozzle System,2016-07-07
+25,Rolls-Royce RB211,Jet,Starter,Starter System,2013-09-11
+26,AE2100D2,Prop,Reduction Gearbox,Reduction Gearbox System,2020-03-23
+27,RB211,Jet,Afterburner,Afterburner System,2022-10-24
+28,GE Aviation H80,Prop,Turbine Blade,Turbine Blade System,1995-06-04
+29,PW206B,Turbofan,Combustion Chamber,Combustion Chamber System,1992-01-15
+30,F110,Jet,Compressor Blade,Compressor Blade System,2005-11-04
+31,J85,Jet,Afterburner,Afterburner System,1995-01-31
+32,PT6A-68,Prop,Reduction Gearbox,Reduction Gearbox System,2006-08-14
+33,PT6A-67R,Prop,Compressor Blade,Compressor Blade System,2014-11-24
+34,F135,Jet,Exhaust Pipe,Exhaust Pipe System,2001-02-26
+35,AE 2100,Prop,Fuel Controller,Fuel Controller System,1992-01-30
+36,TPE331-10,Prop,Propeller Blade,Propeller Blade System,2022-10-11
+37,Rolls-Royce RB211,Jet,Turbine Disc,Turbine Disc System,1990-11-23
+38,Lycoming TIO-540-A2C,Prop,Fuel Nozzle,Fuel Nozzle System,1999-10-10
+39,J85,Jet,Valve,Valve System,1993-06-01
+40,GE Aviation H80,Prop,Gearbox,Gearbox System,2017-01-07
+41,Pratt & Whitney F135,Jet,Exhaust Pipe,Exhaust Pipe System,1994-08-10
+42,PT6A-67R,Prop,Fuel Nozzle,Fuel Nozzle System,2021-06-20
+43,PW206B,Turbofan,Turbine Blade,Turbine Blade System,2009-01-28
+44,AE3007,Turbofan,Fan Blade,Fan Blade System,2007-02-18
+45,Lycoming TIO-540-A2C,Prop,Compressor Blade,Compressor Blade System,2007-09-13
+46,AE3007,Turbofan,Gearbox,Gearbox System,1997-03-24
+47,F135,Jet,Exhaust Pipe,Exhaust Pipe System,1997-07-25
+48,Rolls-Royce RB211,Jet,Starter,Starter System,2022-03-16
+49,AE2100D2,Prop,Fuel Nozzle,Fuel Nozzle System,2007-07-06
+50,PT6A-21,Prop,Gearbox,Gearbox System,1992-07-08
+51,TPE331,Prop,Compressor,Compressor System,2021-01-13
+52,V2500,Turbofan,Gearbox,Gearbox System,2017-08-30
+53,Pratt & Whitney F135,Jet,Afterburner,Afterburner System,2014-04-19
+54,CFM56-5B,Turbofan,Turbine Blade,Turbine Blade System,2014-06-23
+55,PT6A-67R,Prop,Turbine Blade,Turbine Blade System,2010-02-23
+56,PT6A-114A,Prop,Propeller Blade,Propeller Blade System,1990-04-01
+57,CF34-10E,Turbofan,High Pressure Turbine,High Pressure Turbine System,2014-07-11
+58,Rolls-Royce RB211,Jet,Sensor,Sensor System,2008-08-15
+59,CF34-10E,Turbofan,Fan Disk,Fan Disk System,2006-01-17
+60,Rolls-Royce RB211,Jet,Afterburner,Afterburner System,1991-09-27
+61,Pratt & Whitney F135,Jet,Fan Blade,Fan Blade System,1990-07-07
+62,Trent 700,Turbofan,Turbine Blade,Turbine Blade System,2002-10-17
+63,F135,Jet,Sensor,Sensor System,1990-12-26
+64,RB211,Jet,Afterburner,Afterburner System,2003-07-02
+65,Rolls-Royce RB211,Jet,Turbine Disc,Turbine Disc System,1993-12-31
+66,PT6A-67R,Prop,Turbocharger,Turbocharger System,2005-12-30
+67,PW1000G,Turbofan,Low Pressure Turbine,Low Pressure Turbine System,2013-01-07
+68,PT6A-21,Prop,Compressor,Compressor System,1994-12-02
+69,TPE331-10,Prop,Turbine Blade,Turbine Blade System,1993-07-06
+70,Rolls-Royce Spey,Jet,Exhaust Pipe,Exhaust Pipe System,2017-07-06
+71,PT6A-68,Prop,Compressor,Compressor System,1995-12-09
+72,AE 2100,Prop,Gearbox,Gearbox System,1993-02-04
+73,AE3007,Turbofan,Compressor Disc,Compressor Disc System,2000-08-17
+74,General Electric F110,Jet,Fan Blade,Fan Blade System,2010-10-12
+75,TPE331,Prop,Turbocharger,Turbocharger System,2006-10-25
+76,CFM56-7B,Turbofan,Turbine Blade,Turbine Blade System,1999-09-11
+77,PT6A-21,Prop,Compressor Blade,Compressor Blade System,2009-09-06
+78,GE Aviation H80,Prop,Reduction Gearbox,Reduction Gearbox System,2006-02-09
+79,PT6A-21,Prop,Fuel Nozzle,Fuel Nozzle System,1992-05-18
+80,RB211,Jet,Thrust Reverser,Thrust Reverser System,1992-05-08
+81,CFM56-5B,Turbofan,Turbine Blade,Turbine Blade System,1996-08-09
+82,PT6A-68,Prop,Fuel Controller,Fuel Controller System,1993-07-05
+83,General Electric J85,Jet,Thrust Reverser,Thrust Reverser System,2013-11-03
+84,General Electric J85,Jet,Turbine Disc,Turbine Disc System,2015-02-01
+85,Rolls-Royce Spey,Jet,Starter,Starter System,1998-01-16
+86,TPE331,Prop,Compressor,Compressor System,1990-04-16
+87,V2500,Turbofan,High Pressure Turbine,High Pressure Turbine System,2019-06-05
+88,PW1000G,Turbofan,High Pressure Turbine,High Pressure Turbine System,2015-08-29
+89,Trent XWB,Turbofan,High Pressure Turbine,High Pressure Turbine System,2014-07-07
+90,AE 2100,Prop,Reduction Gearbox,Reduction Gearbox System,2012-08-12
+91,AE 2100,Prop,Propeller Blade,Propeller Blade System,1996-05-09
+92,F135,Jet,Turbine Disc,Turbine Disc System,2003-03-12
+93,AE3007,Turbofan,Compressor Disc,Compressor Disc System,2003-03-20
+94,V2500,Turbofan,Exhaust Case,Exhaust Case System,2003-01-17
+95,CFM56-5B,Turbofan,Compressor Disc,Compressor Disc System,2009-10-05
+96,PT6A-114A,Prop,Gearbox,Gearbox System,2000-02-16
+97,RB211,Jet,Starter,Starter System,1996-10-10
+98,AE 2100,Prop,Turbocharger,Turbocharger System,2013-10-05
+99,RB211,Jet,Compressor Blade,Compressor Blade System,2012-09-27
+100,AE2100D2,Prop,Turbine Blade,Turbine Blade System,1997-09-13
